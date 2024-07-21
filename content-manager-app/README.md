@@ -1,17 +1,3 @@
-# Next.js---Resource Project
-
--The project is designed to provide a comprehensive understanding of fundamental concepts in web development.
-
--The concept of state, which represents the dynamic data within a React component, will be grasped, along with effective methods for managing it.
-
--Props, used to pass data from one component to another, are crucial components of this project.
-
--A comprehensive understanding of components in React and their creation and usage in applications is emphasized.
-
--The primary focus will be on React and Next.js, two popular JavaScript libraries/frameworks for building modern web applications.
-
-# Project implement Steps
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -19,12 +5,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npx create-next-app@latest content-manager-app
--✔ Would you like to use App Router? (recommended) … No (to have pages folder)
-cd content-manager-app
 npm run dev
 # or
 yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -34,6 +21,8 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Learn More
 
